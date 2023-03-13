@@ -1,0 +1,26 @@
+component:
+  componentReferences: []
+  creationTime: "2023-03-10T11:39:46+05:30"
+  name: github.com/sidhishruti22/backend
+  provider: sidhishruti22
+  repositoryContexts: []
+  resources:
+  - access:
+      localReference: sha256.883a2f91a8713932501cc2795af4d32e0ebc7326baaf9680569020e2fcc33101
+      mediaType: application/x-tar
+      type: localBlob
+    name: manifests
+    relation: local
+    type: kustomize.ocm.fluxcd.io
+    version: 1.0.0
+  - access:
+      imageReference: ammar31/database-app
+      type: ociArtifact
+    name: image
+    relation: external
+    type: ociImage
+    version: 1.0.0
+  sources: []
+  version: 1.0.0
+meta:
+  schemaVersion: v2

@@ -1,0 +1,26 @@
+component:
+  componentReferences: []
+  creationTime: "2023-03-13T09:46:18+05:30"
+  name: github.com/sidhishruti22/frontend
+  provider: sidhishruti22
+  repositoryContexts: []
+  resources:
+  - access:
+      imageReference: ammar31/python-django-2.3
+      type: ociArtifact
+    name: image
+    relation: external
+    type: ociImage
+    version: 1.0.0
+  - access:
+      localReference: sha256.59ac4db756807327aaa44ad71ec0932c616cc8a6da590b0982b8ef9c9427fcea
+      mediaType: application/x-tar
+      type: localBlob
+    name: manifests
+    relation: local
+    type: kustomize.ocm.fluxcd.io
+    version: 1.0.0
+  sources: []
+  version: 1.0.0
+meta:
+  schemaVersion: v2
